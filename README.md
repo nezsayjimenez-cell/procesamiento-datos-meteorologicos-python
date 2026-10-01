@@ -51,7 +51,7 @@ A continuación se presentan los productos generados de forma automatizada media
 
 ![Resultados Técnicos ERA5-Land](TODO_anio_mes_dia_horaUTC_pruebas01.png)
 *Nota: Nomenclatura del prototipo de salida automatizada: `TODO_{anio}_{mes:02d}_{dia:02d}_{hora:02d}UTC_pruebas01.png`. El código está estructurado de forma modular para permitir la escalabilidad y optimización continua de los productos visuales.*
-g)
+
 
 ---
 
