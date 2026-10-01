@@ -65,9 +65,9 @@ Los códigos fuente están organizados en el directorio principal bajo la siguie
 
 Los desarrollos técnicos y de automatización están integrados bajo la siguiente arquitectura funcional en la raíz del repositorio:
 
-* `01_data_management.py`: Script diseñado para el ordenamiento simplificado, gestión de peticiones HTTP con control de errores y estructuración inicial de registros meteorológicos crudos.
-* `02_temporal_alignment.py`: Algoritmo enfocado en la organización, segmentación y agregación de variables atmosféricas a escalas anuales.
-* `03_era5_processor_and_metar_validation.py`: **Código principal e integrado.** Se encarga de ejecutar el flujo completo en un solo script: lectura del archivo `.nc` de ERA5-Land, proyección directa de la malla, ejecución nativa de la interpolación lineal, generación de campos continuos (mapas con líneas de corriente bajo el backend *Agg*) y el análisis estadístico de validación cruzada en ventanas críticas de 3 días frente a los reportes aeronáuticos **METAR (MMOX)**.
+* `Descargar_los_datos.py`: Script diseñado para el ordenamiento simplificado, gestión de peticiones HTTP con control de errores y estructuración inicial de registros meteorológicos crudos.
+* `Acomodar_los_datos.py`: Algoritmo enfocado en la organización, segmentación y agregación de variables atmosféricas a escalas anuales.
+* `Todas_las_variables.py`: **Código principal e integrado.** Se encarga de ejecutar el flujo completo en un solo script: lectura del archivo `.nc` de ERA5-Land, proyección directa de la malla, ejecución nativa de la interpolación lineal, generación de campos continuos (mapas con líneas de corriente bajo el backend *Agg*) y el análisis estadístico de validación cruzada en ventanas críticas de 3 días frente a los reportes aeronáuticos **METAR (MMOX)**.
 
 ---
  **Contacto:**  
