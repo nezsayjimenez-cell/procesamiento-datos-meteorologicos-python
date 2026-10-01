@@ -49,7 +49,9 @@ A continuación se presentan los productos generados de forma automatizada media
 * **Campos de Viento y Radiación:** Representación vectorial de la dirección y velocidad del viento a 10 metros mediante líneas de corriente (streamlines), junto con el análisis de Radiación incidente horaria.
 * **Series Temporales:** Gráficas analíticas de tendencias y variabilidad temporal para cada variable meteorológica.
 
-![Resultados Técnicos ERA5-Land](TODO_{anio}_{mes:02d}_{dia:02d}_{hora:02d}UTC_pruebas01.png)
+![Resultados Técnicos ERA5-Land](TODO_anio_mes_dia_horaUTC_pruebas01.png)
+*Nota: Nomenclatura del prototipo de salida automatizada: `TODO_{anio}_{mes:02d}_{dia:02d}_{hora:02d}UTC_pruebas01.png`. El código está estructurado de forma modular para permitir la escalabilidad y optimización continua de los productos visuales.*
+g)
 
 ---
 
